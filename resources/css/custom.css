@@ -1,0 +1,126 @@
+.navbar-white {
+  background-color: #b80303 !important;
+  color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+[class*=sidebar-light] .brand-link {
+  background-color: #b80303 !important;
+  color: #fff !important;
+}
+
+.sidebar-light-danger .nav-sidebar>.nav-item>.nav-link.active {
+  background-color: #b80303 !important;
+  color: #fff !important;
+}
+
+table thead th {
+  background-color: #b80303 !important;
+  color: #fff !important;
+  font-weight: normal;
+}
+
+.btn-primary {
+  background-color: #b80303 !important;
+  border-color: #b80303 !important;
+  color: white !important;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: #6D807F !important;
+  border-color: #6D807F !important;
+  color: white !important;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.btn-tertiary {
+  background-color: #FFC3D0 !important;
+  border-color: #FFC3D0 !important;
+  color: #6A0F49 !important;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.card-tt {
+  color: #b80303 !important;
+  height: 50px;
+  text-align: justify; /* Justificar el texto */
+  white-space: pre-line; /* Permitir saltos de línea */
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Número máximo de líneas a mostrar */
+  -webkit-box-orient: vertical;
+  overflow: hidden;/* Número máximo de líneas a mostrar */
+}
+
+.card-block {
+  height: 200px;
+}
+
+.custom-title-class {
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.card-text {
+  color: #000 !important;
+  text-align: justify; /* Justificar el texto */
+  white-space: pre-line; /* Permitir saltos de línea */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Número máximo de líneas a mostrar */
+  -webkit-box-orient: vertical;
+  overflow: hidden; /* Establece una altura máxima de 3 líneas */
+}
+
+.bg-primary {
+  background-color: #b80303 !important;
+  color: #fff !important;
+}
+
+.bg-secondary {
+  background-color: #6D807F !important;
+  color: #fff !important;
+}
+
+.card-primary.card-outline {
+  border-top: 3px solid #b80303 !important;
+}
+
+.card-tertiary.card-outline {
+  border-top: 3px solid #FFC3D0 !important;
+}
+
+.bg-tertiary{
+  background-color: #FFC3D0!important;
+  color: #fff !important;
+}
+
+/* Afianzadoras */
+
+.content-btn{
+  text-align:right !important;
+}
+
+#title-form-dir{
+  border-top: 2px solid #6D807F!important;
+  margin: 1rem 0 1.5rem 0 !important;
+}
+
+#custom-form-group{
+  display: flex!important;
+  flex-direction: row;
+}
+
+#custom-form-group button{
+  background-color: #b80303!important;
+  border: 1px #b80303;
+  color: #fff;
+  margin-left: 1.5rem;
+}
