@@ -54,13 +54,6 @@
                     </div>
                   </div>
                   <div class="col-md-7">
-                    <div class="alert bg-secondary col-12 form-group" role="alert">
-                      Si desea actualizar su contraseña haga
-                      <a id="change-password" type="button" class="btn-confcam">
-                        click aqui.
-                      </a>
-                    </div>
-
                     <div class="form-group col-12">
                       <label>Asignar Rol</label>
                       <select id="rol" name="rol" class="form-control">
