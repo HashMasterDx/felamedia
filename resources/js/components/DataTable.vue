@@ -64,17 +64,12 @@
 import DataTable from 'datatables.net-vue3';
 import DataTableLib from 'datatables.net-bs5';
 import ButtonsHtml5 from 'datatables.net-buttons/js/buttons.html5';
-import pdfmake from 'pdfmake';
-import pdfFonts from 'pdfmake/build/vfs_fonts';
 import 'datatables.net-responsive-bs5';
 import JsZip from 'jszip';
-
-pdfmake.vfs = pdfFonts.pdfMake.vfs;
 
 window.JSZip = JsZip;
 
 DataTable.use(DataTableLib);
-DataTable.use(pdfmake);
 DataTable.use(ButtonsHtml5);
 export default {
   mounted() {
